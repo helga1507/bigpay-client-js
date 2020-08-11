@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.12.0](https://github.com/bigcommerce/bigpay-client-js/compare/v5.5.1...v5.12.0) (2020-08-11)
+
+
+### Features
+
+* **payments:** CHECKOUT-4973 Add hosted_form_nonce to payment request object ([436476a](https://github.com/bigcommerce/bigpay-client-js/commit/436476add620f0ecd3f2fcf725485c8c0bbec23f))
+* **payments:** PAYMENTS-5425 Update payload-mapper for Carding remediation solution ([3a97902](https://github.com/bigcommerce/bigpay-client-js/commit/3a9790236eea5ade2381bcc0df108944fe53f3e0))
+* **payments:** PAYMENTS-5513 add set_as_default_vaulted_instrument mapping ([#100](https://github.com/bigcommerce/bigpay-client-js/issues/100)) ([6eb926d](https://github.com/bigcommerce/bigpay-client-js/commit/6eb926db566d4ed52fd9244423d2825b7baa121e))
+* **payments:** PAYMENTS-5513 rename setAsDefaultInstrument to shouldSetAsDefaultInstrument ([#105](https://github.com/bigcommerce/bigpay-client-js/issues/105)) ([50d96c3](https://github.com/bigcommerce/bigpay-client-js/commit/50d96c361a2018ff59aecbf83c6724cbe0abe360))
+* **payments:** PAYPAL-202 Add paypalcommercecreditcards to PaymentMethodIdMapper ([dfea8c2](https://github.com/bigcommerce/bigpay-client-js/commit/dfea8c2c3957e99bac5e62a22f871ba850075df0))
+* **payments:** PAYPAL-293 Add paypalcommerce to payment methods ([0720e30](https://github.com/bigcommerce/bigpay-client-js/commit/0720e302d30ab92e74ecdcfdbb28db32fc840646))
+* **vaulting:** CHECKOUT-4947 Forward payment method nonce when paying with stored instrument for card verification ([b2f1dc4](https://github.com/bigcommerce/bigpay-client-js/commit/b2f1dc43d7c7409af1047aa9d663927f3a62c508))
+
 ## [5.11.0](https://github.com/bigcommerce/bigpay-client-js/compare/v5.10.0...v5.11.0) (2020-08-07)
 
 
